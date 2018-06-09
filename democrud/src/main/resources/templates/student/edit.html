@@ -8,7 +8,7 @@
 	
 	<th:block layout:fragment="content">
 			
-		<h2>Student Info</h2> <br/>
+		<h2>Library Info</h2> <br/>
 	
 		<form class="form-horizontal" action="/student" method="POST" th:object="${student}">
 		      <input type="hidden" name="id" th:value="${student.id}" />
@@ -45,7 +45,7 @@
 		</form>
 		<br/>
 		
-		<a href="/students">Student List</a>
+		<a href="/students">Library Member List</a>
 	</th:block>
 	
 	<th:block layout:fragment="footer">
